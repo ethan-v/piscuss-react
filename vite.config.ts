@@ -30,6 +30,8 @@ export default defineConfig({
             __dirname,
             "../../packages/react-router-dom/index.tsx"
           ),
+          '@': path.resolve(__dirname, './src'),
+          '~bootstrap': path.resolve(__dirname, 'node_modules/bootstrap'),
         },
       }
     : {},
