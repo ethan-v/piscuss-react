@@ -15,24 +15,22 @@ export default defineConfig({
     }),
     react(),
   ],
-  resolve: process.env.USE_SOURCE
-    ? {
-        alias: {
-          "@remix-run/router": path.resolve(
-            __dirname,
-            "../../packages/router/index.ts"
-          ),
-          "react-router": path.resolve(
-            __dirname,
-            "../../packages/react-router/index.ts"
-          ),
-          "react-router-dom": path.resolve(
-            __dirname,
-            "../../packages/react-router-dom/index.tsx"
-          ),
-          '@': path.resolve(__dirname, './src'),
-          '~bootstrap': path.resolve(__dirname, 'node_modules/bootstrap'),
-        },
-      }
-    : {},
+  resolve: {
+    alias: {
+      // "@remix-run/router": path.resolve(
+      //   __dirname,
+      //   "../../packages/router/index.ts"
+      // ),
+      // "react-router": path.resolve(
+      //   __dirname,
+      //   "../../packages/react-router/index.ts"
+      // ),
+      // "react-router-dom": path.resolve(
+      //   __dirname,
+      //   "../../packages/react-router-dom/index.tsx"
+      // ),
+      'src': path.resolve(__dirname, './src'),
+      '~bootstrap': path.resolve(__dirname, 'node_modules/bootstrap'),
+    },
+  }
 });

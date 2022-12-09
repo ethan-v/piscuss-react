@@ -1,0 +1,44 @@
+.Sidebar {
+    ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+            margin: 10px;
+            a {
+                display: block;
+                padding: 10px 0;
+                color: #ffffffd9;
+                border-radius: 10px;
+                font-size: .867rem;
+                font-weight: 500;
+                padding: 0.5rem 0.75rem 0.5rem 30px;
+                position: relative;
+                text-decoration: none;
+
+                &.active {
+                    background-color: whitesmoke !important;
+                }
+
+                &::before {
+                    position: absolute;
+                    left: 10px;
+                    top: 7px;
+                    bottom: 7px;
+                    content: "";
+                    width: 10px;
+                    border-radius: 10px;
+                    background-color: #3a8ef1;
+                }
+
+            }
+        }
+    }
+    
+}
+
+.LinkActive {
+    font-weight: 500;
+    color: #156ed3 !important;
+    background-color: whitesmoke !important;
+}

@@ -5,7 +5,10 @@ import { BrowserRouter } from "react-router-dom";
 import './scss/styles.scss';
 import App from "./App";
 
-ReactDOM.createRoot(document.getElementById("root")).render(
+const rootElement = document.getElementById("root")
+const root = ReactDOM.createRoot(rootElement as HTMLElement)
+
+root.render(
   <React.StrictMode>
     <BrowserRouter>
       <App />

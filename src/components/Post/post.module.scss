@@ -1,0 +1,98 @@
+.PostItem {
+    display: block;
+    width: 100%;
+    clear: both;
+    background-color: #17273f;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+}
+
+.PostInnerRight {
+    margin-left: 85px;
+}
+
+.PostTitle {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    word-break: break-word;
+}
+
+.PostDate {
+    font-size: .6rem;
+    display: block;
+    margin-bottom: 10px;
+    color: #596176;
+}
+
+.PostReplyBy {
+    color: white;
+    float: right;
+    padding: 0 5px;
+
+    a {
+        color: #f6765d;
+    }
+}
+.PostContent {
+    font-size: 0.8rem;
+}
+
+.PostCount{
+    font-size: 0.8rem;
+    font-weight: 400;
+
+    span {
+        margin-left: 10px;
+    }
+}
+
+.PostTopic {
+    padding: 5px 5px;
+    margin: 0;
+    border-radius: 50px;
+    border: 1px solid #40bc7d;
+    color: #40bc7d;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    a {
+        color: #40bc7d;
+        text-decoration: none;
+    }
+}
+
+.PostViewCount {
+    
+}
+
+.PostReplyCount {
+
+}
+
+.AuthorAvatar {
+    display: inline-block;
+    float: left;
+    margin: 0 0 20px 0px;
+    height: 100%;
+    color: #596176;
+    text-align: center;
+    
+    img {
+        width: 65px;
+        height: 65px;
+        border-radius: 10px;
+    }
+}
+
+.AuthorLevel {
+    display: block;
+    text-align: center;
+    padding: 8px;
+    font-size: 0.7rem;
+    color: #596176;
+    font-weight: 500;
+}

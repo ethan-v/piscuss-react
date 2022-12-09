@@ -1,22 +1,40 @@
----
-title: Lazy Loading
-toc: false
----
+# Piscuss
 
-# Lazy Loading Example
+Piscuss web application build with ReactJS.
 
-This example demonstrates how to lazily load both
+![Piscuss](screenshot.png)
 
-- individual route elements
-- entire portions of your route hierarchy
+**Technical Stack**
 
-on demand using `React.lazy()` and dynamic `import()`. Using this technique,
-pages that are not required on the home page can be split out into separate
-bundles, thereby decreasing load time on the initial page and improving
-performance.
+- NodeJS 19.x
+- Vite 2.x
+- React 18.x
+- React Router v6
+- Bootstrap 5.x
+- Fontawesome
 
-## Preview
+## Features
 
-Open this example on [StackBlitz](https://stackblitz.com):
+- Lazy Loading
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router/tree/main/examples/lazy-loading?file=src/App.tsx)
+## Quickstart
+
+Install dependencies
+
+```shell
+yarn
+```
+
+Start development
+
+```shell
+yarn dev
+```
+
+Build and preview produtction
+
+```shell
+yarn build
+yarn preview
+```
+

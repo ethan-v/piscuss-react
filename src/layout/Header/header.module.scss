@@ -1,3 +1,23 @@
 .SiteHeader {
-    background-color: #eee;
+    background-color: transparent;
+
+    ul {
+        li {
+            a {
+                color: #6c757d;
+                &:visited, &:focus, &:active {
+                    color: #6c757d;
+                }
+                &:hover {
+                    color: whitesmoke;
+                }
+                margin: 0 5px;
+            }
+        }
+    }
+}
+
+.LinkActive {
+    color: whitesmoke !important;
+    border-bottom: 2px solid #4a98ea;
 }
